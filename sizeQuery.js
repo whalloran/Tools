@@ -9,7 +9,7 @@
 
 // Set Height Only
 
- function divSize(){
+ function divSize() {
         var imgQuery = document.querySelector("#img1");
         var divHeight = imgQuery.clientHeight;        
         document.getElementById("img-container").style.height = divHeight + "px";
@@ -22,7 +22,7 @@
 
 // Set Width Only
 
-    function divSize(){
+    function divSize() {
         var imgQuery = document.querySelector("#img1");
         var divWidth = imgQuery.clientWidth;        
         document.getElementById("img-container").style.width = divWidth + "px";
@@ -35,7 +35,7 @@
 // Set Width and Height
 
 
- function divSize(){
+ function divSize() {
         var imgQuery = document.querySelector("#img1");
         var divHeight = imgQuery.clientHeight;
         var divWidth = imgQuery.clientWidth;        
